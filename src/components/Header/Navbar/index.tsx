@@ -17,7 +17,8 @@ const Navbar = () => {
 
   return (
     <div className="w-full flex justify-between relative items-center sm:justify-start sm:gap-x-20">
-        <Image src="/images/logos/main-logo.png" width={50} height={50} alt="logo" />
+        <Image src="/images/logos/main-logo.png" width={50} height={50} alt="logo" className='hidden dark:block' />
+        <Image src="/images/logos/main-logo-shadow.png" width={50} height={50} alt="logo" className='dark:hidden' />
         <div className="items-center justify-between hidden gap-8 md:flex">
             <MyLink href="/">Inicio</MyLink>
             <MyLink href="/contatos">Contatos</MyLink>
@@ -31,7 +32,7 @@ const Navbar = () => {
                         <ChevronDownIcon className="h-[1.2rem] w-[1.2rem]" />
                     </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className='border p-2 rounded-sm mt-3'  align="start">
+                <DropdownMenuContent className='border p-2 rounded-sm mt-3' align="start">
                     <DropdownMenuItem>
                         <MyLink href="/galeria/treinamento">Treinamento</MyLink>
                     </DropdownMenuItem>
@@ -92,7 +93,7 @@ const Navbar = () => {
                                     <ChevronDownIcon className="h-[1.2rem] w-[1.2rem]" />
                                 </Button>
                             </DropdownMenuTrigger>
-                            <DropdownMenuContent className='border p-2 rounded-sm mt-3 bg-[#121212]' align="start">
+                            <DropdownMenuContent className='border p-2 rounded-sm mt-3 dark:bg-[#121212]' align="start">
                     <DropdownMenuItem>
                         <MyLink href="/galeria/treinamento">Treinamento</MyLink>
                     </DropdownMenuItem>
