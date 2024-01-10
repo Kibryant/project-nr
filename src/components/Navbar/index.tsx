@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { ModeToggle } from '@/components/Theme';
-import { MyLink } from '../MyLink';
+import { MyLink } from './MyLink';
 import { Button } from '@/components/ui/button';
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from '@radix-ui/react-dropdown-menu';
 import { Sun, Moon, ChevronDownIcon } from 'lucide-react';
@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full flex justify-between relative items-center sm:justify-start sm:gap-x-20">
+    <div className="w-full flex justify-between relative items-center px-2 sm:justify-start sm:gap-x-20">
         <Image src="/images/logos/main-logo.png" width={50} height={50} alt="logo" className='hidden dark:block' />
         <Image src="/images/logos/main-logo-shadow.png" width={50} height={50} alt="logo" className='dark:hidden' />
         <div className="items-center justify-between hidden gap-8 md:flex">
