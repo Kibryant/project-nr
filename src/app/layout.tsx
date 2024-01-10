@@ -19,12 +19,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang='pt-BR'>
-        <body className={`${inter.className} min-h-screen antialiased scroll-smooth`}>
         <Providers>
+        <body className={`${inter.className} min-h-screen antialiased scroll-smooth`}>
             <Navbar />
             {children}
-        </Providers>
         </body>
+        </Providers>
+
     </html>
   )
 }

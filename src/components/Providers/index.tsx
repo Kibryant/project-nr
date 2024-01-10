@@ -4,6 +4,7 @@ import { ThemeProvider } from 'next-themes'
 import { Alert, AlertTitle, AlertDescription } from '../ui/alert'
 import { useState, useEffect } from 'react'
 import { RocketIcon } from 'lucide-react'
+import Link from 'next/link'
 
 const Providers = ({ children }: { children: React.ReactNode }) => {
     const [showAlert, setShowAlert] = useState(false)
@@ -36,7 +37,9 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
                         <RocketIcon className="h-4 w-4" />
                         <AlertTitle>Heads up!</AlertTitle>
                         <AlertDescription>
-                            You can add components and dependencies to your app using the cli.
+                            <Link href="/contatos">
+                                Fale Conosco
+                            </Link>
                         </AlertDescription>
                     </Alert>
                 )}
