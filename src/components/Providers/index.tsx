@@ -38,11 +38,13 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
       </ThemeProvider>
 
       {showAlert && (
-        <Alert className="fixed bottom-2 right-2 max-w-sm alert">
-          <RocketIcon className="h-4 w-4" />
-          <AlertTitle>Heads up!</AlertTitle>
+        <Alert className="fixed bottom-2 right-2 max-w-[200px] alert main-gradient border-none">
+          <RocketIcon className="h-4 w-4 text-secondary" />
+          <AlertTitle>Venha nos conhecer!</AlertTitle>
           <AlertDescription>
-            <Link href="/contatos">Fale Conosco</Link>
+            <Link href="/contatos" className="text-bold">
+              Fale Conosco
+            </Link>
           </AlertDescription>
         </Alert>
       )}
