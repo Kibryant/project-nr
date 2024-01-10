@@ -18,14 +18,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang='pt-BR'>
-        <Providers>
-        <body className={`${inter.className} min-h-screen antialiased scroll-smooth`}>
-            <Navbar />
-            {children}
+    <html lang="pt-BR">
+      <Providers>
+        <body
+          className={`${inter.className} min-h-screen antialiased scroll-smooth`}
+        >
+          <Navbar />
+          {children}
         </body>
-        </Providers>
-
+      </Providers>
     </html>
   )
 }
