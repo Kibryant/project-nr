@@ -1,5 +1,6 @@
 import Card from '@/components/Card'
 import { Header } from '@/components/Header'
+import { PanelCardSwiper } from '@/components/PanelCardSwiper'
 import { Section } from '@/components/Section'
 import { Subtitle } from '@/components/Subtitle'
 import { Title } from '@/components/Title'
@@ -59,7 +60,9 @@ const Page = () => {
             />
             <Subtitle subtitle="Essência Empresarial: Missão, Visão e Valores" />
           </div>
-          <div></div>
+          <div className="">
+            <PanelCardSwiper />
+          </div>
         </Section>
       </main>
     </>
