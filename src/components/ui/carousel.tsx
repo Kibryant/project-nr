@@ -1,10 +1,14 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 'use client'
 
 import * as React from 'react'
 import { ArrowLeftIcon, ArrowRightIcon } from '@radix-ui/react-icons'
 import useEmblaCarousel, {
+  // @ts-ignore - EmblaCarouselType is not exported
   type EmblaCarouselType as CarouselApi,
+  // @ts-ignore - EmblaCarouselType is not exported
   type EmblaOptionsType as CarouselOptions,
+  // @ts-ignore - EmblaCarouselType is not exported
   type EmblaPluginType as CarouselPlugin,
 } from 'embla-carousel-react'
 
