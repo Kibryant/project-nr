@@ -1,4 +1,6 @@
 import { Header } from '@/components/Header'
+import { Section } from '@/components/Section'
+import { Title } from '@/components/Title'
 
 const Page = () => {
   return (
@@ -11,6 +13,12 @@ const Page = () => {
         showButtons
         showChevronDown
       />
+
+      <main>
+        <Section className="section">
+          <Title title="Quem somos" titleGreenPart="nós?" />
+        </Section>
+      </main>
     </>
   )
 }
