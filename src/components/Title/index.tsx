@@ -6,7 +6,7 @@ interface TitleProps {
 const Title = ({ title, titleGreenPart }: TitleProps) => {
   return (
     <>
-      <h2 className="text-4xl font-semibold">
+      <h2 className="text-4xl font-semibold text-center">
         {title} <span className="text-primary">{titleGreenPart}</span>
       </h2>
     </>
