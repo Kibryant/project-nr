@@ -1,5 +1,6 @@
 import Card from '@/components/Card'
 import { Header } from '@/components/Header'
+import { PanelCard } from '@/components/PanelCard'
 import { PanelCardSwiper } from '@/components/PanelCardSwiper'
 import { Section } from '@/components/Section'
 import { Subtitle } from '@/components/Subtitle'
@@ -60,8 +61,43 @@ const Page = () => {
             />
             <Subtitle subtitle="Essência Empresarial: Missão, Visão e Valores" />
           </div>
-          <div className="">
+          <div className="block sm:hidden">
             <PanelCardSwiper />
+          </div>
+          <div className="hidden sm:flex sm:items-center sm:justify-between">
+            <PanelCard
+              title="Missão"
+              subtitle="Encaminhando o Futuro com Propósito."
+              alt="Missão"
+              image="team-work"
+              texts={[
+                'Encaminhar o futuro com propósito',
+                'Ser referência no mercado de representação comercial',
+                'Ser reconhecida como uma empresa de excelência',
+              ]}
+            />
+            <PanelCard
+              title="Valores"
+              subtitle="Encaminhando o Futuro com Propósito."
+              alt="Missão"
+              image="company-amico"
+              texts={[
+                'Encaminhar o futuro com propósito',
+                'Ser referência no mercado de representação comercial',
+                'Ser reconhecida como uma empresa de excelência',
+              ]}
+            />
+            <PanelCard
+              title="Visão"
+              subtitle="Encaminhando o Futuro com Propósito."
+              alt="Missão"
+              image="website-creator"
+              texts={[
+                'Encaminhar o futuro com propósito',
+                'Ser referência no mercado de representação comercial',
+                'Ser reconhecida como uma empresa de excelência',
+              ]}
+            />
           </div>
         </Section>
       </main>

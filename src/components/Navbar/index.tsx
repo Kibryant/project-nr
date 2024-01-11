@@ -117,7 +117,7 @@ const Navbar = () => {
             <DropdownMenu>
               <DropdownMenuTrigger className="bg-transparent" asChild>
                 <Button
-                  className="border-secondary-foreground flex justify-between items-center rounded-sm p-2"
+                  className="border-secondary-foreground flex justify-between items-center rounded-sm p-2 dark:bg-[#121212]"
                   variant="outline"
                 >
                   <span>Galeria</span>
