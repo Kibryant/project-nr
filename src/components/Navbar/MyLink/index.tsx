@@ -17,7 +17,7 @@ const MyLink: React.FC<MyLinkProps> = ({ children, href, className }) => {
     <Link href={href} className="flex items-end gap-x-2">
       <span
         // eslint-disable-next-line prettier/prettier
-        className={cn(`origin-left duration-300 ${pathname === href && 'text-primary font-bold'
+        className={cn(`origin-left duration-300 hover:underline ${pathname === href && 'text-primary font-bold'
           }`,
           className,
         )}

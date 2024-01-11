@@ -43,7 +43,7 @@ const Navbar = () => {
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button
-              className="border-primary flex justify-between items-center rounded-sm"
+              className="border-primary flex justify-between items-center rounded-sm dark:bg-[#121212]"
               variant="outline"
             >
               <span>Galeria</span>
@@ -51,16 +51,16 @@ const Navbar = () => {
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent
-            className="border p-2 rounded-sm mt-3 dark:bg-[#121212]"
+            className="border p-2 rounded-sm mt-3"
             align="start"
           >
-            <DropdownMenuItem>
+            <DropdownMenuItem className="hover:border-none">
               <MyLink href="/galeria/treinamento">Treinamento</MyLink>
             </DropdownMenuItem>
-            <DropdownMenuItem>
+            <DropdownMenuItem className="hover:border-none hover:underline">
               <MyLink href="/galeria/eventos">Eventos</MyLink>
             </DropdownMenuItem>
-            <DropdownMenuItem>
+            <DropdownMenuItem className="hover:border-none hover:underline">
               <MyLink href="/galeria/trabalho-em-campo">
                 Trabalho em Campo
               </MyLink>
