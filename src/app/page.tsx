@@ -19,9 +19,10 @@ const Page = () => {
         subtitleGreenPart="Desde de 2018, fornecemos os melhores produtos para todo o Nordeste!"
         showButtons
         showChevronDown
+        showSwiper
       />
 
-      <main className="space-y-14 sm:space-y-80">
+      <main className="space-y-14 sm:space-y-80 mt-16">
         <Section className="space-y-10 relative" id="quem-somos-nos">
           <Image
             src="/images/logos/background-logo.png"

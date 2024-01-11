@@ -3,6 +3,7 @@ import { Button } from '../ui/button'
 import { Badge } from '../ui/badge'
 import { ChevronDown, Heart } from 'lucide-react'
 import Image from 'next/image'
+import { HeaderSwiper } from '../HeaderSwiper'
 
 interface HeaderProps {
   title: string
@@ -11,6 +12,7 @@ interface HeaderProps {
   subtitleGreenPart: string
   showButtons?: boolean
   showChevronDown?: boolean
+  showSwiper?: boolean
 }
 
 const Header = ({
@@ -20,9 +22,10 @@ const Header = ({
   subtitleGreenPart,
   showButtons = false,
   showChevronDown = false,
+  showSwiper = false,
 }: HeaderProps) => {
   return (
-    <header className="flex flex-col items-center justify-start w-full mt-10 sm:mt-0 sm:h-screen sm:justify-center sm:relative">
+    <header className="flex flex-col items-center justify-start space-y-8 w-full mt-10 sm:mt-0 sm:h-screen sm:justify-center sm:relative">
       <div className="max-w-6xl px-2 flex flex-col justify-center items-center gap-y-8">
         <Badge variant="outline">
           <span>Paixão e Qualidade que Combinam.</span>
@@ -54,6 +57,7 @@ const Header = ({
         fill
         className="hidden sm:block"
       />
+      {showSwiper && <HeaderSwiper />}
       {showChevronDown && (
         <a
           href="#quem-somos-nos"
