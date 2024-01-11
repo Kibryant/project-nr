@@ -1,4 +1,5 @@
 import Card from '@/components/Card'
+import FAQ from '@/components/FAQ'
 import { Header } from '@/components/Header'
 import { PanelCard } from '@/components/PanelCard'
 import { PanelCardSwiper } from '@/components/PanelCardSwiper'
@@ -99,6 +100,15 @@ const Page = () => {
               ]}
             />
           </div>
+        </Section>
+        <Section>
+          <div className="flex flex-col justify-center w-full items-center">
+            <h2 className="text-4xl font-semibold text-center text-primary">
+              FAQ
+            </h2>
+            <Subtitle subtitle="Perguntas Frequentes" />
+          </div>
+          <FAQ />
         </Section>
       </main>
     </>

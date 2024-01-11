@@ -28,7 +28,7 @@ const Header = ({
           <span>Paixão e Qualidade que Combinam.</span>
           <Heart className="ml-2 text-primary" size={16} />
         </Badge>
-        <h1 className="font-bold text-4xl text-center sm:text-5xl">
+        <h1 className="font-bold text-center text-5xl">
           {title} <span className="text-primary">{titleGreenPart}</span>
         </h1>
         <p className="mt-4 text-center sm:text-lg">
