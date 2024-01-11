@@ -4,16 +4,16 @@
 import * as React from 'react'
 import { ArrowLeftIcon, ArrowRightIcon } from '@radix-ui/react-icons'
 import useEmblaCarousel, {
-  // @ts-ignore - EmblaCarouselType is not exported
-  type EmblaCarouselType as CarouselApi,
-  // @ts-ignore - EmblaCarouselType is not exported
-  type EmblaOptionsType as CarouselOptions,
-  // @ts-ignore - EmblaCarouselType is not exported
-  type EmblaPluginType as CarouselPlugin,
+  type UseEmblaCarouselType,
 } from 'embla-carousel-react'
 
 import { cn } from '@/utils/cn'
 import { Button } from '@/components/ui/button'
+
+type CarouselApi = UseEmblaCarouselType[1]
+type UseCarouselParameters = Parameters<typeof useEmblaCarousel>
+type CarouselOptions = UseCarouselParameters[0]
+type CarouselPlugin = UseCarouselParameters[1]
 
 type CarouselProps = {
   opts?: CarouselOptions
@@ -64,6 +64,7 @@ const Carousel = React.forwardRef<
         ...opts,
         axis: orientation === 'horizontal' ? 'x' : 'y',
       },
+      // @ts-ignore
       plugins,
     )
     const [canScrollPrev, setCanScrollPrev] = React.useState(false)
