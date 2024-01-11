@@ -57,9 +57,9 @@ const Header = ({
       {showChevronDown && (
         <a
           href="#quem-somos-nos"
-          className="hidden sm:block sm:absolute sm: bottom-10"
+          className="hidden sm:block sm:absolute sm:bottom-10"
         >
-          <ChevronDown className="h-20 w-20 text-primary/80 hidden sm:block sm:absolute sm: bottom-10" />
+          <ChevronDown className="h-20 w-20 text-primary/80" />
         </a>
       )}
     </header>

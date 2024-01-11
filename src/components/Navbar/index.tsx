@@ -51,7 +51,7 @@ const Navbar = () => {
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent
-            className="border p-2 rounded-sm mt-3"
+            className="border p-2 rounded-sm mt-3 dark:bg-[#121212]"
             align="start"
           >
             <DropdownMenuItem>
