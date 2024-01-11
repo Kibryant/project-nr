@@ -32,7 +32,7 @@ const Page = () => {
             <Title title="Quem somos" titleGreenPart="nós?" />
             <Subtitle subtitle="Pensada e criada para você nosso cliente!" />
           </div>
-          <div className="flex flex-col gap-y-8 sm:flex">
+          <div className="flex flex-col gap-y-8 sm:flex-row">
             <Card
               Icon={Compass}
               title="Sua necessidade é nossa bússola!"
