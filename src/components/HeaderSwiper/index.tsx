@@ -4,6 +4,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from '@/components/ui/carousel'
 
 import Autoplay from 'embla-carousel-autoplay'
@@ -19,15 +21,13 @@ const HeaderSwiper = () => {
       ]}
       className="block sm:hidden w-full h-auto"
     >
-      <Image
-        src="/images/logos/main-logo-shadow.png"
-        alt="NR Representações"
-        width={40}
-        height={40}
-        quality={100}
-      />
+      <h4 className="text-xl text-center">
+        <span className="text-primary">Nossos</span> Parceiros
+      </h4>
+      <CarouselPrevious className="absolute left-2 top-2/4" />
+      <CarouselNext className="absolute right-2 top-2/4" />
       <CarouselContent className="h-auto">
-        <CarouselItem className="flex rounded-md justify-center items-center shadow-md dark:shadow-none p-4">
+        <CarouselItem className="flex rounded-md justify-center border-2 items-center p-4">
           <Image
             src="/images/brands/ccm.png"
             alt="NR Representações"
@@ -36,7 +36,7 @@ const HeaderSwiper = () => {
             quality={100}
           />
         </CarouselItem>
-        <CarouselItem className="flex justify-center items-center shadow-md dark:shadow-none p-4">
+        <CarouselItem className="flex rounded-md justify-center border-2 items-center p-4">
           <Image
             src="/images/brands/confort-pet.png"
             alt="NR Representações"
@@ -45,7 +45,7 @@ const HeaderSwiper = () => {
             quality={100}
           />
         </CarouselItem>
-        <CarouselItem className="flex justify-center items-center shadow-md dark:shadow-none p-4">
+        <CarouselItem className="flex rounded-md justify-center border-2 items-center p-4">
           <Image
             src="/images/brands/doogs.png"
             alt="NR Representações"
@@ -54,7 +54,7 @@ const HeaderSwiper = () => {
             quality={100}
           />
         </CarouselItem>
-        <CarouselItem className="flex justify-center items-center shadow-md dark:shadow-none p-4">
+        <CarouselItem className="flex rounded-md justify-center border-2 items-center p-4">
           <Image
             src="/images/brands/matsuda.png"
             alt="NR Representações"
@@ -63,7 +63,7 @@ const HeaderSwiper = () => {
             quality={100}
           />
         </CarouselItem>
-        <CarouselItem className="flex justify-center items-center shadow-md dark:shadow-none p-4">
+        <CarouselItem className="flex rounded-md justify-center border-2 items-center p-4">
           <Image
             src="/images/brands/petyan.png"
             alt="NR Representações"

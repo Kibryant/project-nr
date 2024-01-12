@@ -40,16 +40,6 @@ const Header = ({
             {subtitleGreenPart}
           </span>
         </p>
-        {showButtons && (
-          <div className="flex items-center gap-x-2">
-            <Button className="mt-4">
-              <Link href="/produtos">Conheça nossos parceiros</Link>
-            </Button>
-            <Button className="mt-4" variant="secondary">
-              <Link href="/contatos">Entre em contato</Link>
-            </Button>
-          </div>
-        )}
       </div>
       <Image
         src="/svgs/line.svg"
@@ -58,6 +48,13 @@ const Header = ({
         className="hidden sm:block"
       />
       {showSwiper && <HeaderSwiper />}
+      {showButtons && (
+        <div className="flex items-center gap-x-2 w-full max-w-lg px-2">
+          <Button className="mt-4 w-full rounded-[4px]">
+            <Link href="/contatos">Entre em contato</Link>
+          </Button>
+        </div>
+      )}
       {showChevronDown && (
         <a
           href="#quem-somos-nos"
