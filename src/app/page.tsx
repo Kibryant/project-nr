@@ -102,7 +102,10 @@ const Page = () => {
           </div>
         </Section>
         <Section>
-          <div></div>
+          <div className="flex flex-col justify-center w-full items-center">
+            <Title title="Nosso Mundo" titleGreenPart="em Imagens" />
+            <Subtitle subtitle="Um Registro Visual de Treinamentos, Eventos e Ações no Campo" />
+          </div>
         </Section>
       </main>
     </>
