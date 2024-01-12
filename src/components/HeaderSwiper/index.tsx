@@ -27,49 +27,54 @@ const HeaderSwiper = () => {
       <CarouselPrevious className="left-2 top-2/4" />
       <CarouselNext className="right-2 top-2/4" />
       <CarouselContent className="">
-        <CarouselItem className="flex rounded-md justify-center border-2 items-center p-8 max-h-96">
+        <CarouselItem className="flex rounded-md justify-center items-center max-h-96">
           <Image
             src="/images/banner/ccm.png"
             alt="NR Representações"
             width={200}
             height={112.61}
             quality={100}
+            className="rounded-md p-8 border"
           />
         </CarouselItem>
-        <CarouselItem className="flex rounded-md justify-center border-2 items-center p-8 max-h-96">
+        <CarouselItem className="flex rounded-md justify-center items-center max-h-96">
           <Image
             src="/images/banner/confort-pet.png"
             alt="NR Representações"
             width={200}
             height={112.61}
             quality={100}
+            className="rounded-md p-8 border"
           />
         </CarouselItem>
-        <CarouselItem className="flex rounded-md justify-center border-2 items-center p-8 max-h-96">
+        <CarouselItem className="flex rounded-md justify-center items-center max-h-96">
           <Image
             src="/images/banner/doogs.png"
             alt="NR Representações"
             width={200}
             height={112.61}
             quality={100}
+            className="rounded-md p-8 border"
           />
         </CarouselItem>
-        <CarouselItem className="flex rounded-md justify-center border-2 items-center p-8 max-h-96">
+        <CarouselItem className="flex rounded-md justify-center items-center max-h-96">
           <Image
             src="/images/banner/matsuda.png"
             alt="NR Representações"
             width={200}
             height={112.61}
             quality={100}
+            className="rounded-md p-8 border"
           />
         </CarouselItem>
-        <CarouselItem className="flex rounded-md justify-center border-2 items-center p-8 max-h-96">
+        <CarouselItem className="flex rounded-md justify-center items-center max-h-96">
           <Image
             src="/images/banner/petyan.png"
             alt="NR Representações"
             width={200}
             height={112.61}
             quality={100}
+            className="rounded-md p-8 border"
           />
         </CarouselItem>
       </CarouselContent>
