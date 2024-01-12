@@ -6,7 +6,7 @@ import { PanelCardSwiper } from '@/components/PanelCardSwiper'
 import { Section } from '@/components/Section'
 import { Subtitle } from '@/components/Subtitle'
 import { Title } from '@/components/Title'
-import { Compass } from 'lucide-react'
+import { CloudLightningIcon, CompassIcon, TargetIcon } from 'lucide-react'
 import Image from 'next/image'
 
 const Page = () => {
@@ -22,7 +22,7 @@ const Page = () => {
         showSwiper
       />
 
-      <main className="space-y-14 sm:space-y-80 mt-16">
+      <main className="space-y-14 sm:space-y-80 sm:mt-16">
         <Section className="space-y-10 relative" id="quem-somos-nos">
           <Image
             src="/images/logos/background-logo.png"
@@ -38,18 +38,18 @@ const Page = () => {
           </div>
           <div className="flex flex-col gap-y-8 sm:flex-row">
             <Card
-              Icon={Compass}
+              Icon={CompassIcon}
               title="Sua necessidade é nossa bússola!"
               description="Sua necessidade é nossa bússola! temos uma missão clara: superar todas as expectativas ao oferecer os melhores produtos. Dedicamos a elevar padrões, combinando qualidade, inovação e sua satisfação como nosso guia."
             />
             <Card
-              Icon={Compass}
+              Icon={TargetIcon}
               title="Qualidade e dedicação ao cliente!"
               description="Sua necessidade é nossa bússola! temos uma missão clara: superar todas as expectativas ao oferecer os melhores produtos. Dedicamos a elevar padrões, combinando qualidade, inovação e sua satisfação como nosso guia."
               className="sm:mt-96"
             />
             <Card
-              Icon={Compass}
+              Icon={CloudLightningIcon}
               title="Sua necessidade é nossa bússola!"
               description="Sua necessidade é nossa bússola! temos uma missão clara: superar todas as expectativas ao oferecer os melhores produtos. Dedicamos a elevar padrões, combinando qualidade, inovação e sua satisfação como nosso guia."
             />
