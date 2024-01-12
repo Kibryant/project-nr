@@ -4,14 +4,6 @@ import { useState } from 'react'
 import Image from 'next/image'
 import { ModeToggle } from '@/components/Theme'
 import { MyLink } from './MyLink'
-import { Button } from '@/components/ui/button'
-import {
-  DropdownMenu,
-  DropdownMenuTrigger,
-  DropdownMenuContent,
-  DropdownMenuItem,
-} from '@radix-ui/react-dropdown-menu'
-import { ChevronDownIcon } from 'lucide-react'
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false)
@@ -40,33 +32,6 @@ const Navbar = () => {
         <MyLink href="/">Inicio</MyLink>
         <MyLink href="/contatos">Contatos</MyLink>
         <MyLink href="/parceiros">Parceiros</MyLink>
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button
-              className="border-primary flex justify-between items-center rounded-sm dark:bg-[#121212]"
-              variant="outline"
-            >
-              <span>Galeria</span>
-              <ChevronDownIcon className="h-[1.2rem] w-[1.2rem]" />
-            </Button>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent
-            className="border p-2 rounded-sm mt-3"
-            align="start"
-          >
-            <DropdownMenuItem className="hover:border-none">
-              <MyLink href="/galeria/treinamento">Treinamento</MyLink>
-            </DropdownMenuItem>
-            <DropdownMenuItem className="hover:border-none hover:underline">
-              <MyLink href="/galeria/eventos">Eventos</MyLink>
-            </DropdownMenuItem>
-            <DropdownMenuItem className="hover:border-none hover:underline">
-              <MyLink href="/galeria/trabalho-em-campo">
-                Trabalho em Campo
-              </MyLink>
-            </DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
       </div>
       <div className="items-center hidden sm:flex sm:absolute right-2">
         <ModeToggle />
@@ -112,35 +77,6 @@ const Navbar = () => {
           </li>
           <li>
             <MyLink href="/parceiros">Parceiros</MyLink>
-          </li>
-          <li>
-            <DropdownMenu>
-              <DropdownMenuTrigger className="bg-transparent" asChild>
-                <Button
-                  className="border-secondary-foreground flex justify-between items-center rounded-sm p-2 dark:bg-[#121212]"
-                  variant="outline"
-                >
-                  <span>Galeria</span>
-                  <ChevronDownIcon className="h-[1.2rem] w-[1.2rem]" />
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent
-                className="border p-2 rounded-sm mt-3 dark:bg-[#121212]"
-                align="start"
-              >
-                <DropdownMenuItem>
-                  <MyLink href="/galeria/treinamento">Treinamento</MyLink>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <MyLink href="/galeria/eventos">Eventos</MyLink>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <MyLink href="/galeria/trabalho-em-campo">
-                    Trabalho em Campo
-                  </MyLink>
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
           </li>
         </ul>
         <ModeToggle />
