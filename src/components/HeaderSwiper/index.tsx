@@ -19,14 +19,14 @@ const HeaderSwiper = () => {
           delay: 6000,
         }),
       ]}
-      className="block sm:hidden w-full h-auto"
+      className="block sm:hidden"
     >
-      <h4 className="text-center">
+      <h4 className="text-center mb-2">
         Nossos <span className="text-primary">Parceiros</span>
       </h4>
       <CarouselPrevious className="absolute left-2 top-2/4" />
       <CarouselNext className="absolute right-2 top-2/4" />
-      <CarouselContent className="h-auto">
+      <CarouselContent className="w-full">
         <CarouselItem className="flex rounded-md justify-center border-2 items-center p-4">
           <Image
             src="/images/brands/ccm.png"
