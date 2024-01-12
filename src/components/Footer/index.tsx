@@ -56,9 +56,10 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="ms-5 absolute bottom-0 left-0">
+          <div className="absolute bottom-0 left-0">
             <span className="text-zinc-400">
-              &copy;NR Representações 2023 | Todos os Direitos Reservados.
+              &copy;NR Representações 2023 | <br />
+              Todos os Direitos Reservados.
             </span>
           </div>
         </div>

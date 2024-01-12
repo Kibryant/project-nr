@@ -21,8 +21,8 @@ const HeaderSwiper = () => {
       ]}
       className="block sm:hidden w-full h-auto"
     >
-      <h4 className="text-xl text-center">
-        <span className="text-primary">Nossos</span> Parceiros
+      <h4 className="text-center">
+        Nossos <span className="text-primary">Parceiros</span>
       </h4>
       <CarouselPrevious className="absolute left-2 top-2/4" />
       <CarouselNext className="absolute right-2 top-2/4" />

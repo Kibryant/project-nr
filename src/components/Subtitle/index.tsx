@@ -3,7 +3,7 @@ interface SubtitleProps {
 }
 
 const Subtitle = ({ subtitle }: SubtitleProps) => {
-  return <p className="text-lg">{subtitle}</p>
+  return <p className="text-lg text-center">{subtitle}</p>
 }
 
 export { Subtitle }

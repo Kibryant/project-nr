@@ -4,6 +4,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from '@/components/ui/carousel'
 
 import Autoplay from 'embla-carousel-autoplay'
@@ -18,6 +20,8 @@ const PanelCardSwiper = () => {
         }),
       ]}
     >
+      <CarouselPrevious className="left-2 top-2/4" />
+      <CarouselNext className="right-2 top-2/4" />
       <CarouselContent className="h-auto">
         <CarouselItem className="">
           <PanelCard
