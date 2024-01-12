@@ -1,5 +1,6 @@
 import Card from '@/components/Card'
 import { Header } from '@/components/Header'
+import { ImageSwiper } from '@/components/ImageSwiper'
 import { PanelCard } from '@/components/PanelCard'
 import { PanelCardSwiper } from '@/components/PanelCardSwiper'
 import { Section } from '@/components/Section'
@@ -101,11 +102,12 @@ const Page = () => {
             />
           </div>
         </Section>
-        <Section>
+        <Section className="space-y-10">
           <div className="flex flex-col justify-center w-full items-center">
-            <Title title="Nosso Mundo" titleGreenPart="em Imagens" />
+            <Title title="Nosso mundo" titleGreenPart="em imagens" />
             <Subtitle subtitle="Um Registro Visual de Treinamentos, Eventos e Ações no Campo" />
           </div>
+          <ImageSwiper />
         </Section>
       </main>
     </>
