@@ -26,6 +26,7 @@ const PanelCardSwiper = () => {
         <CarouselItem className="">
           <PanelCard
             title="Missão"
+            makedBy="https://storyset.com/people"
             subtitle="Encaminhando o Futuro com Propósito."
             alt="Missão"
             image="team-work"
@@ -39,6 +40,7 @@ const PanelCardSwiper = () => {
         <CarouselItem className="">
           <PanelCard
             title="Valores"
+            makedBy="https://storyset.com/people"
             subtitle="Encaminhando o Futuro com Propósito."
             alt="Missão"
             image="company-amico"
@@ -52,6 +54,7 @@ const PanelCardSwiper = () => {
         <CarouselItem className="">
           <PanelCard
             title="Valores"
+            makedBy="https://storyset.com/people"
             subtitle="Encaminhando o Futuro com Propósito."
             alt="Missão"
             image="website-creator"
