@@ -63,7 +63,7 @@ const Navbar = () => {
 
       <nav
         className={`${showNavbar ? 'absolute flex' : 'hidden'} 
-                border-l border-t md:hidden transition-all duration-500 bg-background dark:bg-[#121212] flex-col items-start shadow-md dark:shadow-none justify-start gap-y-28 w-80 overflow-hidden max-h-0 
+                z-50 border-l border-t md:hidden transition-all duration-500 bg-background dark:bg-[#121212] flex-col items-start shadow-md dark:shadow-none justify-start gap-y-28 w-80 overflow-hidden max-h-0 
                 ${showNavbar && 'py-4'}  
                 px-4 rounded-md 
                 ${showNavbar && 'max-h-[500px]'} top-full right-0`}
