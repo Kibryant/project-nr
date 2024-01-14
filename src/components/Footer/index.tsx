@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { MyLink } from '../Navbar/MyLink'
 import { EnvelopeClosedIcon, InstagramLogoIcon } from '@radix-ui/react-icons'
 import { Facebook, LinkedinIcon, MapPin, PhoneIcon } from 'lucide-react'
+import { MyDialog } from '../MyDialog'
 
 const Footer = () => {
   return (
@@ -70,7 +71,7 @@ const Footer = () => {
             <ul className="flex items-center gap-x-2">
               <li>
                 <a
-                  href="https://www.facebook.com/nrrepresentacoes/"
+                  href="https://www.linkedin.com/company/nrrepresentante"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -79,7 +80,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/nrrepresentacoes/"
+                  href="https://www.instagram.com/neto.representacoes/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -88,7 +89,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/nrrepresentacoes/"
+                  href="https://www.facebook.com/profile.php?id=100083159710993"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -101,6 +102,9 @@ const Footer = () => {
                   target="_blank"
                   rel="noreferrer"
                 ></a>
+              </li>
+              <li>
+                <MyDialog />
               </li>
             </ul>
           </div>
