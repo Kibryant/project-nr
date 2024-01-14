@@ -45,13 +45,13 @@ const Page = () => {
             <Card
               Icon={TargetIcon}
               title="Qualidade e dedicação ao cliente!"
-              description="Sua necessidade é nossa bússola! temos uma missão clara: superar todas as expectativas ao oferecer os melhores produtos. Dedicamos a elevar padrões, combinando qualidade, inovação e sua satisfação como nosso guia."
+              description="Compromisso inabalável com qualidade e dedicação ao cliente. Vamos além para superar expectativas, garantindo experiências excepcionais e relações duradouras. Sua satisfação é nossa prioridade."
               className="sm:mt-96"
             />
             <Card
               Icon={CloudLightningIcon}
-              title="Sua necessidade é nossa bússola!"
-              description="Sua necessidade é nossa bússola! temos uma missão clara: superar todas as expectativas ao oferecer os melhores produtos. Dedicamos a elevar padrões, combinando qualidade, inovação e sua satisfação como nosso guia."
+              title="Inovação e Excelência"
+              description="novação e Excelência moldam nossa jornada. Na vanguarda da criatividade, estamos comprometidos em oferecer experiências excepcionais. Descubra um caminho repleto de qualidade e descobertas transformadoras conosco."
             />
           </div>
         </Section>
@@ -72,10 +72,11 @@ const Page = () => {
               subtitle="Encaminhando o Futuro com Propósito."
               alt="Missão"
               image="team-work"
+              makedBy="https://storyset.com/people"
               texts={[
-                'Encaminhar o futuro com propósito',
-                'Ser referência no mercado de representação comercial',
-                'Ser reconhecida como uma empresa de excelência',
+                'Prestar serviços de representação comercial com excelência.',
+                'Efetuar vendas com qualidade e eficiência.',
+                'Ser referência no mercado de representação comercial.',
               ]}
             />
             <PanelCard
@@ -83,21 +84,24 @@ const Page = () => {
               subtitle="Encaminhando o Futuro com Propósito."
               alt="Missão"
               image="company-amico"
+              makedBy="https://storyset.com/people"
               texts={[
-                'Encaminhar o futuro com propósito',
-                'Ser referência no mercado de representação comercial',
-                'Ser reconhecida como uma empresa de excelência',
+                'Lealdade, fidelidade e colaboração na nossa jornada.',
+                'Comprometimento, dedicação e responsabilidade.',
+                'Inovação, criatividade e progresso constante.',
               ]}
             />
             <PanelCard
+              makedBy="https://storyset.com/people"
               title="Visão"
               subtitle="Encaminhando o Futuro com Propósito."
               alt="Missão"
               image="website-creator"
               texts={[
-                'Encaminhar o futuro com propósito',
-                'Ser referência no mercado de representação comercial',
-                'Ser reconhecida como uma empresa de excelência',
+                'Excelência no atendimento, superando expectativas.',
+                'Ambiente acolhedor e valorização do potencial individual.',
+                'Parcerias sólidas e colaboração para benefícios mútuos.',
+                'Alianças estratégicas e relacionamentos duradouros.',
               ]}
             />
           </div>

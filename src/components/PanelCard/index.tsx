@@ -7,18 +7,29 @@ interface PanelCardProps {
   texts: string[]
   image: string
   alt: string
+  makedBy: string
 }
 
-const PanelCard = ({ title, subtitle, texts, image, alt }: PanelCardProps) => {
+const PanelCard = ({
+  title,
+  subtitle,
+  texts,
+  image,
+  alt,
+  makedBy,
+}: PanelCardProps) => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <Image
-        src={`/svgs/${image}.svg`}
-        width={250}
-        height={250}
-        alt={alt}
-        quality={100}
-      />
+      <a href={makedBy}>
+        <Image
+          src={`/svgs/${image}.svg`}
+          width={250}
+          height={250}
+          alt={alt}
+          quality={100}
+        />
+      </a>
+
       <h3 className="text-2xl font-semibold text-center text-primary mt-4">
         {title}
       </h3>
