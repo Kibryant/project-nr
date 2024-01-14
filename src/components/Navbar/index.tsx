@@ -30,8 +30,8 @@ const Navbar = () => {
       />
       <div className="items-center justify-between hidden gap-8 md:flex">
         <MyLink href="/">Inicio</MyLink>
-        <MyLink href="/contatos">Contatos</MyLink>
-        <MyLink href="/parceiros">Parceiros</MyLink>
+        <MyLink href="/a">Contatos</MyLink>
+        <MyLink href="/a">Parceiros</MyLink>
       </div>
       <div className="items-center hidden sm:flex sm:absolute right-2">
         <ModeToggle />
@@ -73,10 +73,10 @@ const Navbar = () => {
             <MyLink href="/">Inicio</MyLink>
           </li>
           <li>
-            <MyLink href="/contatos">Contatos</MyLink>
+            <MyLink href="/a">Contatos</MyLink>
           </li>
           <li>
-            <MyLink href="/parceiros">Parceiros</MyLink>
+            <MyLink href="/a">Parceiros</MyLink>
           </li>
         </ul>
         <ModeToggle />

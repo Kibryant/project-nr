@@ -51,7 +51,7 @@ const Header = ({
       {showButtons && (
         <div className="flex items-center gap-x-2 w-full max-w-lg px-2">
           <Button className="mt-4 w-full rounded-[4px]">
-            <Link href="/contatos">Entre em contato</Link>
+            <Link href="/a">Entre em contato</Link>
           </Button>
         </div>
       )}

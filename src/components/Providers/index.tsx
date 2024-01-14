@@ -42,7 +42,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
           <RocketIcon className="h-4 w-4 text-secondary" />
           <AlertTitle>Venha nos conhecer!</AlertTitle>
           <AlertDescription>
-            <Link href="/contatos" className="text-bold">
+            <Link href="/a" className="text-bold">
               Fale Conosco
             </Link>
           </AlertDescription>

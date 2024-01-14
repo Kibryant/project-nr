@@ -25,18 +25,13 @@ const Footer = () => {
                 </MyLink>
               </li>
               <li>
-                <MyLink className="text-zinc-300" href="/contatos">
+                <MyLink className="text-zinc-300" href="/a">
                   Contatos
                 </MyLink>
               </li>
               <li>
-                <MyLink className="text-zinc-300" href="/parceiros">
+                <MyLink className="text-zinc-300" href="/a">
                   Parceiros
-                </MyLink>
-              </li>
-              <li>
-                <MyLink className="text-zinc-300" href="/contact">
-                  Contato
                 </MyLink>
               </li>
             </ul>
