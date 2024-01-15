@@ -1,9 +1,8 @@
-import Link from 'next/link'
-import { Button } from '../ui/button'
 import { Badge } from '../ui/badge'
 import { ChevronDown, Heart } from 'lucide-react'
 import Image from 'next/image'
 import { HeaderSwiper } from '../HeaderSwiper'
+import { ButtonCTA } from '../ButtonCTA'
 
 interface HeaderProps {
   title: string
@@ -48,13 +47,7 @@ const Header = ({
         className="hidden sm:block"
       />
       {showSwiper && <HeaderSwiper />}
-      {showButtons && (
-        <div className="flex items-center gap-x-2 w-full max-w-lg px-2">
-          <Button className="mt-4 w-full rounded-[4px]">
-            <Link href="/a">Entre em contato</Link>
-          </Button>
-        </div>
-      )}
+      {showButtons && <ButtonCTA />}
       {showChevronDown && (
         <a
           href="#quem-somos-nos"

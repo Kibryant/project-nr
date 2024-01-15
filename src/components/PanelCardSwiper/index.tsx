@@ -10,6 +10,7 @@ import {
 
 import Autoplay from 'embla-carousel-autoplay'
 import { PanelCard } from '../PanelCard'
+import { ButtonCTA } from '../ButtonCTA'
 
 const PanelCardSwiper = () => {
   return (
@@ -66,6 +67,7 @@ const PanelCardSwiper = () => {
           />
         </CarouselItem>
       </CarouselContent>
+      <ButtonCTA />
     </Carousel>
   )
 }

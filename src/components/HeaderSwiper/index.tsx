@@ -31,7 +31,7 @@ const HeaderSwiper = () => {
           <Image
             src="/images/banner/ccm.png"
             alt="NR Representações"
-            width={200}
+            width={350}
             height={112.61}
             quality={100}
             className="rounded-md p-8 border"
@@ -41,7 +41,7 @@ const HeaderSwiper = () => {
           <Image
             src="/images/banner/confort-pet.png"
             alt="NR Representações"
-            width={200}
+            width={350}
             height={112.61}
             quality={100}
             className="rounded-md p-8 border"
@@ -51,7 +51,7 @@ const HeaderSwiper = () => {
           <Image
             src="/images/banner/doogs.png"
             alt="NR Representações"
-            width={200}
+            width={350}
             height={112.61}
             quality={100}
             className="rounded-md p-8 border"
@@ -61,7 +61,7 @@ const HeaderSwiper = () => {
           <Image
             src="/images/banner/matsuda.png"
             alt="NR Representações"
-            width={200}
+            width={350}
             height={112.61}
             quality={100}
             className="rounded-md p-8 border"
@@ -71,7 +71,7 @@ const HeaderSwiper = () => {
           <Image
             src="/images/banner/petyan.png"
             alt="NR Representações"
-            width={200}
+            width={350}
             height={112.61}
             quality={100}
             className="rounded-md p-8 border"

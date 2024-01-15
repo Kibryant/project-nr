@@ -42,13 +42,20 @@ const Footer = () => {
               <br />A gente ajuda você!
             </h4>
             <ul className="space-y-2">
-              <li className="max-w-fit flex flex-col sm:flex-row sm:gap-x-1 sm:justify-center sm:items-center">
+              <li className="max-w-fit flex gap-x-1 justify-center items-center">
                 <EnvelopeClosedIcon className="text-zinc-300 w-4 h-4" />
-                <span className="text-zinc-300">arthurgustavon@gmail.com</span>
+                <span className="text-zinc-300">
+                  nrepresentacoes2019@outlook.com
+                </span>
               </li>
-              <li className="max-w-fit flex flex-col sm:flex-row sm:gap-x-1 sm:justify-center sm:items-center">
-                <PhoneIcon className="text-zinc-300 w-4 h-4" />
-                <span className="text-zinc-300">(73) 99962-5449</span>
+              <li className="group">
+                <a
+                  href="https://wa.me/5573999625449"
+                  className="text-zinc-300 underline flex gap-x-1 items-center group-hover:text-primary"
+                >
+                  <PhoneIcon className="text-zinc-300 w-4 h-4 group-hover:text-primary" />
+                  (73) 99962-5449
+                </a>
               </li>
             </ul>
           </div>
@@ -84,7 +91,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com/profile.php?id=100083159710993"
+                  href="https://www.facebook.com/profile.php?id=61553876169811"
                   target="_blank"
                   rel="noreferrer"
                 >
