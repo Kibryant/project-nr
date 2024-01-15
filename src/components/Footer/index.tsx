@@ -16,7 +16,7 @@ const Footer = () => {
             quality={100}
           />
           <div className="flex flex-col gap-y-4 ms-5">
-            <h4 className="font-extrabold text-white text-lg">Links</h4>
+            <h4 className="font-extrabold text-white text-lg">Volte para</h4>
             <ul>
               <li>
                 <a href="/#inicio">
