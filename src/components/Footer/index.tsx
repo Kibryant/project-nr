@@ -50,7 +50,8 @@ const Footer = () => {
                   <span
                     className={`origin-left duration-300 hover:underline text-white`}
                   >
-                    Nosso mundo em imagens
+                    Nosso mundo em <br />
+                    imagens
                   </span>
                 </a>
               </li>
