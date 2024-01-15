@@ -18,11 +18,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" className="scroll-smooth">
       <Providers>
-        <body
-          className={`${inter.className} min-h-screen antialiased scroll-smooth`}
-        >
+        <body className={`${inter.className} min-h-screen antialiased`}>
           <Navbar />
           {children}
           <Footer />

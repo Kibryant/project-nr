@@ -27,7 +27,7 @@ const ImageSwiper = () => {
             ]}
           >
             <CarouselPrevious className="left-10 top-2/4 z-50" />
-            <CarouselNext className="right-2 top-2/4" />
+            <CarouselNext className="right-2 top-2/4 z-50" />
             <CarouselContent className="">
               <CarouselItem>
                 <ImageComponent
@@ -86,7 +86,7 @@ const ImageSwiper = () => {
             ]}
           >
             <CarouselPrevious className="left-10 top-2/4 z-50" />
-            <CarouselNext className="right-2 top-2/4" />
+            <CarouselNext className="right-2 top-2/4 z-50" />
             <CarouselContent className="">
               <CarouselItem>
                 <ImageComponent
@@ -145,7 +145,7 @@ const ImageSwiper = () => {
             ]}
           >
             <CarouselPrevious className="left-10 top-2/4 z-50" />
-            <CarouselNext className="right-2 top-2/4" />
+            <CarouselNext className="right-2 top-2/4 z-50" />
             <CarouselContent className="">
               <CarouselItem>
                 <ImageComponent
