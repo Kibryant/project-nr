@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { MyLink } from '../Navbar/MyLink'
 import { EnvelopeClosedIcon, InstagramLogoIcon } from '@radix-ui/react-icons'
 import { Facebook, LinkedinIcon, MapPin, PhoneIcon } from 'lucide-react'
 import { MyDialog } from '../MyDialog'
@@ -20,19 +19,40 @@ const Footer = () => {
             <h4 className="font-extrabold text-white text-lg">Links</h4>
             <ul>
               <li>
-                <MyLink className="text-zinc-300" href="/">
-                  Incio
-                </MyLink>
+                <a href="/#inicio">
+                  <span
+                    className={`origin-left duration-300 hover:underline text-white`}
+                  >
+                    Inicio
+                  </span>
+                </a>
               </li>
               <li>
-                <MyLink className="text-zinc-300" href="/a">
-                  Contatos
-                </MyLink>
+                <a href="/#quem-somos-nos">
+                  <span
+                    className={`origin-left duration-300 hover:underline text-white`}
+                  >
+                    Quem somos nós
+                  </span>
+                </a>
               </li>
               <li>
-                <MyLink className="text-zinc-300" href="/a">
-                  Parceiros
-                </MyLink>
+                <a href="/#missao-visao-valores">
+                  <span
+                    className={`origin-left duration-300 hover:underline text-white`}
+                  >
+                    Missão, visão e valores
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/#nosso-mundo-em-imagens">
+                  <span
+                    className={`origin-left duration-300 hover:underline text-white`}
+                  >
+                    Nosso mundo em imagens
+                  </span>
+                </a>
               </li>
             </ul>
           </div>
@@ -59,7 +79,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="absolute bottom-0 left-0">
+          <div className="absolute bottom-0 left-5">
             <span className="text-zinc-400">
               &copy;NR Representações 2023 | <br />
               Todos os Direitos Reservados.

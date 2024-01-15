@@ -32,9 +32,9 @@ const PanelCardSwiper = () => {
             alt="Missão"
             image="team-work"
             texts={[
-              'Encaminhar o futuro com propósito',
-              'Ser referência no mercado de representação comercial',
-              'Ser reconhecida como uma empresa de excelência',
+              'Prestar serviços de representação comercial com excelência.',
+              'Efetuar vendas com qualidade e eficiência.',
+              'Ser referência no mercado de representação comercial.',
             ]}
           />
         </CarouselItem>
@@ -46,9 +46,9 @@ const PanelCardSwiper = () => {
             alt="Missão"
             image="company-amico"
             texts={[
-              'Encaminhar o futuro com propósito',
-              'Ser referência no mercado de representação comercial',
-              'Ser reconhecida como uma empresa de excelência',
+              'Lealdade, fidelidade e colaboração na nossa jornada.',
+              'Comprometimento, dedicação e responsabilidade.',
+              'Inovação, criatividade e progresso constante.',
             ]}
           />
         </CarouselItem>
@@ -60,9 +60,10 @@ const PanelCardSwiper = () => {
             alt="Missão"
             image="website-creator"
             texts={[
-              'Encaminhar o futuro com propósito',
-              'Ser referência no mercado de representação comercial',
-              'Ser reconhecida como uma empresa de excelência',
+              'Excelência no atendimento, superando expectativas.',
+              'Ambiente acolhedor e valorização do potencial individual.',
+              'Parcerias sólidas e colaboração para benefícios mútuos.',
+              'Alianças estratégicas e relacionamentos duradouros.',
             ]}
           />
         </CarouselItem>

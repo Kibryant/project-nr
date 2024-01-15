@@ -24,14 +24,20 @@ const Header = ({
   showSwiper = false,
 }: HeaderProps) => {
   return (
-    <header className="flex flex-col items-center justify-start space-y-8 w-full mt-10 sm:mt-0 sm:h-screen sm:justify-center sm:relative">
+    <header
+      className="flex flex-col items-center justify-start space-y-8 w-full mt-10 sm:mt-0 sm:h-screen sm:justify-center sm:relative"
+      id="inicio"
+    >
       <div className="max-w-6xl px-2 flex flex-col justify-center items-center gap-y-8">
         <Badge variant="outline">
           <span>Paixão e Qualidade que Combinam.</span>
           <Heart className="ml-2 text-primary" size={16} />
         </Badge>
-        <h1 className="font-bold text-center text-5xl">
-          {title} <span className="text-primary">{titleGreenPart}</span>
+        <h1 className="font-bold text-center text-4xl sm:text-5xl">
+          {title}{' '}
+          <span className="text-primary font-extrabold text-nowrap">
+            {titleGreenPart}
+          </span>
         </h1>
         <p className="mt-4 text-center sm:text-lg">
           {subTitle}{' '}

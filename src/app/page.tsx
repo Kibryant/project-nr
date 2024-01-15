@@ -4,7 +4,6 @@ import { ImageSwiper } from '@/components/ImageSwiper'
 import { PanelCard } from '@/components/PanelCard'
 import { PanelCardSwiper } from '@/components/PanelCardSwiper'
 import { Section } from '@/components/Section'
-import { Subtitle } from '@/components/Subtitle'
 import { Title } from '@/components/Title'
 import { CloudLightningIcon, CompassIcon, TargetIcon } from 'lucide-react'
 import Image from 'next/image'
@@ -13,7 +12,7 @@ const Page = () => {
   return (
     <>
       <Header
-        title="Seja bem vindo(a) á"
+        title="Seja bem vindo a"
         titleGreenPart="NR Representações!"
         subTitle="Nossa história é de paixão por qualidade e dedicação ao cliente."
         subtitleGreenPart="Desde de 2018, fornecemos os melhores produtos para todo o Nordeste!"
@@ -34,7 +33,6 @@ const Page = () => {
           />
           <div className="flex flex-col justify-center w-full items-center">
             <Title title="Quem somos" titleGreenPart="nós?" />
-            <Subtitle subtitle="Pensada e criada para você nosso cliente!" />
           </div>
           <div className="flex flex-col gap-y-8 sm:flex-row">
             <Card
@@ -50,18 +48,17 @@ const Page = () => {
             />
             <Card
               Icon={CloudLightningIcon}
-              title="Inovação e Excelência"
-              description="novação e Excelência moldam nossa jornada. Na vanguarda da criatividade, estamos comprometidos em oferecer experiências excepcionais. Descubra um caminho repleto de qualidade e descobertas transformadoras conosco."
+              title="Inovação e excelência"
+              description="Inovação e Excelência moldam nossa jornada. Na vanguarda da criatividade, estamos comprometidos em oferecer experiências excepcionais. Descubra um caminho repleto de qualidade e descobertas transformadoras conosco."
             />
           </div>
         </Section>
-        <Section className="space-y-10" id="nossos-produtos">
+        <Section className="space-y-10" id="missao-visao-valores">
           <div className="flex flex-col justify-center w-full items-center">
             <Title
               title="Missão, visão e valores"
               titleGreenPart="da nossa empresa"
             />
-            <Subtitle subtitle="Essência Empresarial: Missão, Visão e Valores" />
           </div>
           <div className="block sm:hidden">
             <PanelCardSwiper />
@@ -106,10 +103,9 @@ const Page = () => {
             />
           </div>
         </Section>
-        <Section className="space-y-10">
+        <Section className="space-y-10" id="nosso-mundo-em-imagens">
           <div className="flex flex-col justify-center w-full items-center">
             <Title title="Nosso mundo" titleGreenPart="em imagens" />
-            <Subtitle subtitle="Um Registro Visual de Treinamentos, Eventos e Ações no Campo" />
           </div>
           <ImageSwiper />
         </Section>
