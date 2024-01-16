@@ -55,6 +55,15 @@ const Footer = () => {
                   </span>
                 </a>
               </li>
+              <li>
+                <a href="/#encontre-nos-aqui">
+                  <span
+                    className={`origin-left duration-300 hover:underline text-white`}
+                  >
+                    Econtre nos aqui
+                  </span>
+                </a>
+              </li>
             </ul>
           </div>
           <div className="flex flex-col gap-y-4 ms-5">

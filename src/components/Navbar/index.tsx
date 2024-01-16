@@ -49,6 +49,13 @@ const Navbar = () => {
             Nosso mundo em imagens
           </span>
         </a>
+        <a href="/#encontre-nos-aqui">
+          <span
+            className={`origin-left duration-300 hover:underline text-white`}
+          >
+            Encontre nos aqui
+          </span>
+        </a>
       </div>
       <div className="items-center hidden sm:flex sm:absolute right-2">
         <ModeToggle />

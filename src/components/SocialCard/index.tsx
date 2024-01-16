@@ -20,7 +20,7 @@ const SocialCard = ({ icon: Icon, link, title }: SocialCardProps) => {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="ms-8 text-sm sm:text-base sm:ms-0 sm:text-center"
+        className="ms-8 text-sm sm:text-base sm:ms-0 sm:text-center hover:underline"
       >
         {link}
       </a>

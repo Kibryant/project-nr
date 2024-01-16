@@ -123,7 +123,17 @@ const Page = () => {
             <Title title="Encontre-nos" titleGreenPart="aqui" />
           </div>
           <div className="flex flex-col justify-center items-center space-y-5 sm:flex-row sm:justify-around sm:space-y-0">
-            <MapComponent />
+            <div className="flex flex-col justify-center items-center sm:gap-y-2">
+              <MapComponent />
+              <Image
+                src="/images/company/multiplace-company.jpg"
+                alt="NR Representações"
+                width={400}
+                height={400}
+                quality={100}
+                className="hidden sm:block rounded-md"
+              />
+            </div>
             <div className="space-y-5 sm:space-y-5">
               <SocialCard
                 icon={InstagramLogoIcon}
@@ -157,7 +167,7 @@ const Page = () => {
                   href="https://wa.me/5573999625449"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="ms-10 text-sm sm:text-base sm:ms-0 sm:text-center"
+                  className="ms-10 text-sm sm:text-base sm:ms-0 sm:text-center hover:underline"
                 >
                   (73) 99962-5449
                 </a>
