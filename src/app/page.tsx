@@ -1,20 +1,10 @@
 import Card from '@/components/Card'
 import { Header } from '@/components/Header'
-import { ImageSwiper } from '@/components/ImageSwiper'
-import { MapComponent } from '@/components/Map'
 import { PanelCard } from '@/components/PanelCard'
 import { PanelCardSwiper } from '@/components/PanelCardSwiper'
 import { Section } from '@/components/Section'
-import { SocialCard } from '@/components/SocialCard'
 import { Title } from '@/components/Title'
-import { InstagramLogoIcon } from '@radix-ui/react-icons'
-import {
-  CloudLightningIcon,
-  CompassIcon,
-  Facebook,
-  LinkedinIcon,
-  TargetIcon,
-} from 'lucide-react'
+import { CloudLightningIcon, CompassIcon, TargetIcon } from 'lucide-react'
 import Image from 'next/image'
 
 const Page = () => {
@@ -112,7 +102,7 @@ const Page = () => {
             />
           </div>
         </Section>
-        <Section className="space-y-10" id="nosso-mundo-em-imagens">
+        {/* <Section className="space-y-10" id="nosso-mundo-em-imagens">
           <div className="flex flex-col justify-center w-full items-center">
             <Title title="Nosso mundo" titleGreenPart="em imagens" />
           </div>
@@ -174,7 +164,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-        </Section>
+        </Section> */}
       </main>
       {/* <a target="_blank" href="https://icons8.com/icon/16712/whatsapp">WhatsApp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
     </>

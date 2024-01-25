@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { EnvelopeClosedIcon, InstagramLogoIcon } from '@radix-ui/react-icons'
 import { Facebook, LinkedinIcon, MapPin, PhoneIcon } from 'lucide-react'
 import { MyDialog } from '../MyDialog'
+import { MyLink } from '../Navbar/MyLink'
 
 const Footer = () => {
   return (
@@ -19,50 +20,19 @@ const Footer = () => {
             <h4 className="font-extrabold text-white text-lg">Volte para</h4>
             <ul>
               <li>
-                <a href="/#inicio">
-                  <span
-                    className={`origin-left duration-300 hover:underline text-white`}
-                  >
-                    Inicio
-                  </span>
-                </a>
+                <MyLink className="text-zinc-300" href="/">
+                  Incio
+                </MyLink>
               </li>
               <li>
-                <a href="/#quem-somos-nos">
-                  <span
-                    className={`origin-left duration-300 hover:underline text-white`}
-                  >
-                    Quem somos nós
-                  </span>
-                </a>
+                <MyLink className="text-zinc-300" href="/contatos">
+                  Contatos
+                </MyLink>
               </li>
               <li>
-                <a href="/#missao-visao-valores">
-                  <span
-                    className={`origin-left duration-300 hover:underline text-white`}
-                  >
-                    Missão, visão e valores
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="/#nosso-mundo-em-imagens">
-                  <span
-                    className={`origin-left duration-300 hover:underline text-white`}
-                  >
-                    Nosso mundo em <br />
-                    imagens
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="/#encontre-nos-aqui">
-                  <span
-                    className={`origin-left duration-300 hover:underline text-white`}
-                  >
-                    Econtre nos aqui
-                  </span>
-                </a>
+                <MyLink className="text-zinc-300" href="/clientes">
+                  Clientes
+                </MyLink>
               </li>
             </ul>
           </div>
@@ -101,38 +71,42 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-extrabold text-lg">Redes Socias</h4>
             <ul className="flex items-center gap-x-2">
-              <li>
+              <li className="group">
                 <a
                   href="https://www.linkedin.com/company/nrrepresentante"
                   target="_blank"
                   rel="noreferrer"
+                  className="group-hover:text-primary text-zinc-300"
                 >
-                  <LinkedinIcon className="text-zinc-300 w-6 h-6" />
+                  <LinkedinIcon className="w-6 h-6" />
                 </a>
               </li>
-              <li>
+              <li className="group">
                 <a
                   href="https://www.instagram.com/neto.representacoes/"
                   target="_blank"
                   rel="noreferrer"
+                  className="group-hover:text-primary text-zinc-300"
                 >
-                  <InstagramLogoIcon className="text-zinc-300 w-6 h-6" />
+                  <InstagramLogoIcon className="w-6 h-6" />
                 </a>
               </li>
-              <li>
+              <li className="group">
                 <a
                   href="https://www.facebook.com/profile.php?id=61553876169811"
                   target="_blank"
                   rel="noreferrer"
+                  className="group-hover:text-primary text-zinc-300"
                 >
-                  <Facebook className="text-zinc-300 w-6 h-6" />
+                  <Facebook className="w-6 h-6" />
                 </a>
               </li>
-              <li>
+              <li className="group">
                 <a
                   href="https://www.instagram.com/nrrepresentacoes/"
                   target="_blank"
                   rel="noreferrer"
+                  className="group-hover:text-primary"
                 ></a>
               </li>
               <li>
@@ -146,8 +120,8 @@ const Footer = () => {
               Endereço
             </h4>
             <p className="text-zinc-300 flex">
-              Edíficio MultiPlace sala 605, Av. Juracy Magalhães 3340, Boa
-              Vista, Vitória da Conquista - BA.
+              Edíficio MultiPlace sala 605, Av. Juracy Magalhães 3340, <br />
+              Boa Vista, Vitória da Conquista - BA.
             </p>
           </div>
           <div className="ms-5 absolute bottom-0 right-0">

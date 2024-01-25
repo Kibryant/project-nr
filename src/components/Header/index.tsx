@@ -12,6 +12,7 @@ interface HeaderProps {
   showButtons?: boolean
   showChevronDown?: boolean
   showSwiper?: boolean
+  hrefToChevronDown?: string
 }
 
 const Header = ({
@@ -22,6 +23,7 @@ const Header = ({
   showButtons = false,
   showChevronDown = false,
   showSwiper = false,
+  hrefToChevronDown = 'quem-somos-nos',
 }: HeaderProps) => {
   return (
     <header
@@ -56,7 +58,7 @@ const Header = ({
       {showButtons && <ButtonCTA />}
       {showChevronDown && (
         <a
-          href="#quem-somos-nos"
+          href={`#${hrefToChevronDown}`}
           className="hidden sm:block sm:absolute sm:bottom-10"
         >
           <ChevronDown className="h-20 w-20 text-primary/80" />

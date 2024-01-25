@@ -30,9 +30,9 @@ const MyDialog = () => {
           <DialogDescription className="group flex justify-center sm:justify-start">
             <a
               href="https://wa.me/5573999625449"
-              className="text-zinc-300 underline flex gap-x-1 items-center group-hover:text-primary"
+              className="dark:text-zinc-300 text-black underline flex gap-x-1 items-center group-hover:text-primary"
             >
-              <PhoneIcon className="text-zinc-300 w-4 h-4 group-hover:text-primary" />
+              <PhoneIcon className="text-black w-4 h-4 group-hover:text-primary" />
               (73) 99962-5449
             </a>
           </DialogDescription>

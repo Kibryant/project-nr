@@ -21,7 +21,7 @@ const MapComponent = () => {
       mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_API_KEY}
       {...viewport}
       onMove={(evt) => setViewport(evt.viewState)}
-      style={{ width: 400, height: 400, borderRadius: '8px' }}
+      style={{ width: 400, height: 400, borderRadius: '20px' }}
       mapStyle="mapbox://styles/mapbox/streets-v9"
     >
       <Marker
