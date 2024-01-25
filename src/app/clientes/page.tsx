@@ -78,7 +78,7 @@ const Page = () => {
           />
           <BrandBubbles
             image="/images/clients/pacaluz.png"
-            className="left-32 top-80 sm:left-48 sm:top-[440px]"
+            className="left-28 top-80 sm:left-48 sm:top-[440px]"
           />
           <BrandBubbles
             image="/images/clients/plus-pharma.png"
