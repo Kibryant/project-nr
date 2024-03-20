@@ -11,8 +11,8 @@ const Page = () => {
         titleGreenPart="de Sucesso"
         subTitle="Conheça e Celebre os Clientes que Confiam em Nossas Escolhas -"
         subtitleGreenPart="Uma Jornada de Qualidade nas Suas Mãos"
-        showButtons
         showChevronDown
+        eventPicture="event-2.jpg"
         hrefToChevronDown="nossos-clientes"
       />
       <main>

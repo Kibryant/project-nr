@@ -15,8 +15,8 @@ const Page = () => {
         titleGreenPart="NR Representações"
         subTitle="Conecte-se para Parcerias de Sucesso:"
         subtitleGreenPart="Entre em Contato com a NR Representações"
-        showButtons
         showChevronDown
+        eventPicture="event-3.jpg"
         hrefToChevronDown="encontre-nos-aqui"
       />
       <main>
