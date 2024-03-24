@@ -1,12 +1,6 @@
 'use client'
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from '@/components/ui/carousel'
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
 
 import Autoplay from 'embla-carousel-autoplay'
 import { ImageComponent } from '../ImageComponent'
@@ -15,9 +9,7 @@ const ImageSwiper = () => {
   return (
     <div className="flex flex-col justify-center items-center w-full gap-y-8 sm:flex-row sm:gap-y-0 sm:gap-x-4">
       <div className="flex flex-col justify-center items-center w-full">
-        <h3 className="text-primary text-2xl font-semibold mb-1 sm:text-3xl">
-          Eventos
-        </h3>
+        <h3 className="text-primary text-2xl font-semibold mb-1 sm:text-3xl">Eventos</h3>
         <div>
           <Carousel
             plugins={[
@@ -74,9 +66,7 @@ const ImageSwiper = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center w-full">
-        <h3 className="text-primary text-2xl font-semibold mb-1 sm:text-3xl">
-          Treinamento
-        </h3>
+        <h3 className="text-primary text-2xl font-semibold mb-1 sm:text-3xl">Treinamento</h3>
         <div>
           <Carousel
             plugins={[
@@ -133,9 +123,7 @@ const ImageSwiper = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center w-full">
-        <h3 className="text-primary text-2xl font-semibold mb-1 sm:text-3xl">
-          Trabalho em campo
-        </h3>
+        <h3 className="text-primary text-2xl font-semibold mb-1 sm:text-3xl">Trabalho em campo</h3>
         <div>
           <Carousel
             plugins={[

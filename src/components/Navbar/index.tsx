@@ -14,27 +14,13 @@ const Navbar = () => {
 
   return (
     <div className="w-full flex justify-between relative h-28 sm:z-[999] sm:fixed items-center px-2 sm:justify-center sm:gap-x-20 bg-[#012E71] sm:h-32">
-      <Image
-        src="/images/logos/logo-bottomless.png"
-        width={120}
-        height={120}
-        alt="logo"
-        quality={100}
-      />
+      <Image src="/images/logos/logo-bottomless.png" width={120} height={120} alt="logo" quality={100} />
       <div className="hidden sm:flex sm:flex-col sm:gap-y-4">
         <div className="flex justify-center items-center">
           <div className="flex gap-x-2 items-center">
-            <Image
-              src="/svgs/whatsapp.svg"
-              alt="Whatsapp icon"
-              width={28}
-              height={28}
-              quality={100}
-            />
-            <span className="text-white">
-              (73) 99962-5499
-            </span>
-          </div> 
+            <Image src="/svgs/whatsapp.svg" alt="Whatsapp icon" width={28} height={28} quality={100} />
+            <span className="text-white">(73) 99962-5499</span>
+          </div>
         </div>
         <div className="w-full border"></div>
         <div className="items-center justify-between flex gap-8">

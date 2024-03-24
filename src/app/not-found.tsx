@@ -11,18 +11,13 @@ const Page = () => {
         </h1>
         <div>
           <Image src="/svgs/error-404.svg" width={500} height={500} alt="404" />
-          <a href="https://storyset.com/online">
-            Online illustrations by Storyset
-          </a>
+          <a href="https://storyset.com/online">Online illustrations by Storyset</a>
         </div>
         <p className="mt-6 text-base leading-7 text-zinc-600 dark:text-zinc-300">
           A página que você está procurando não foi encontrada.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
-          <Link
-            href="/"
-            className="text-white font-medium px-4 py-2 rounded-md bg-primary"
-          >
+          <Link href="/" className="text-white font-medium px-4 py-2 rounded-md bg-primary">
             Voltar para a página inicial
           </Link>
         </div>

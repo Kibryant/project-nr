@@ -10,15 +10,17 @@ import Image from 'next/image'
 const Page = () => {
   return (
     <>
-      <Header
-        title="Entre em contato com a"
-        titleGreenPart="NR Representações"
-        subTitle="Conecte-se para Parcerias de Sucesso:"
-        subtitleGreenPart="Entre em Contato com a NR Representações"
-        showChevronDown
-        eventPicture="event-3.jpg"
-        hrefToChevronDown="encontre-nos-aqui"
-      />
+      <Header.Root showChevronDown hrefToChevronDown="encontre-nos-aqui">
+        <Header.Content>
+          <Header.Title title="Entre em contato com a" titleGreenPart="NR Representações" />
+          <Header.Subtitle
+            subtitle="Conecte-se para Parcerias de Sucesso:"
+            subtitleGreenPart="Entre em Contato com a NR Representações"
+          />
+        </Header.Content>
+        <Header.Image eventPicture="event-3.jpg" />
+      </Header.Root>
+
       <main>
         <Section className="space-y-10" id="encontre-nos-aqui">
           <div className="flex flex-col justify-center w-full items-center">
@@ -54,23 +56,11 @@ const Page = () => {
               />
               <div className="flex flex-col w-full items-start shadow-md p-4 max-h-64 rounded-md dark:shadow-none dark:border sm:items-center">
                 <div className="w-full flex sm:flex-col sm:justify-center items-center gap-1 sm:gap-0">
-                  <a
-                    target="_blank"
-                    href="https://icons8.com/icon/16712/whatsapp"
-                    rel="noopener noreferrer"
-                  >
-                    <Image
-                      src="/svgs/whatsapp-green.svg"
-                      alt="WhatsApp"
-                      width={28}
-                      height={28}
-                      quality={100}
-                    />
+                  <a target="_blank" href="https://icons8.com/icon/16712/whatsapp" rel="noopener noreferrer">
+                    <Image src="/svgs/whatsapp-green.svg" alt="WhatsApp" width={28} height={28} quality={100} />
                   </a>
 
-                  <h3 className="text-xl sm:text-[22px] font-bold">
-                    NR Representações WhatsApp
-                  </h3>
+                  <h3 className="text-xl sm:text-[22px] font-bold">NR Representações WhatsApp</h3>
                 </div>
                 <a
                   href="https://wa.me/5573999625449"

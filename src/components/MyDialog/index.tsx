@@ -16,13 +16,7 @@ const MyDialog = () => {
     // <a target="_blank" href="https://icons8.com/icon/16712/whatsapp">WhatsApp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
     <Dialog>
       <DialogTrigger className="flex justify-center items-center">
-        <Image
-          src="/svgs/whatsapp.svg"
-          alt="WhatsApp"
-          width={24}
-          height={24}
-          quality={100}
-        />
+        <Image src="/svgs/whatsapp.svg" alt="WhatsApp" width={24} height={24} quality={100} />
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>

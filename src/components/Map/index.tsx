@@ -24,10 +24,7 @@ const MapComponent = () => {
       style={{ width: 400, height: 400, borderRadius: '20px' }}
       mapStyle="mapbox://styles/mapbox/streets-v9"
     >
-      <Marker
-        longitude={markerCoordinates.longitude}
-        latitude={markerCoordinates.latitude}
-      >
+      <Marker longitude={markerCoordinates.longitude} latitude={markerCoordinates.latitude}>
         <Popup
           closeButton={false}
           closeOnClick={false}
@@ -35,12 +32,9 @@ const MapComponent = () => {
           longitude={markerCoordinates.longitude}
         >
           <div className="flex flex-col gap-y-2">
-            <h2 className="text-lg text-primary font-bold">
-              NR Representações
-            </h2>
+            <h2 className="text-lg text-primary font-bold">NR Representações</h2>
             <p className="text-sm dark:text-black">
-              Edíficio MultiPlace sala 605, Av. Juracy Magalhães 3340, Boa
-              Vista, Vitória da Conquista - BA.
+              Edíficio MultiPlace sala 605, Av. Juracy Magalhães 3340, Boa Vista, Vitória da Conquista - BA.
             </p>
           </div>
         </Popup>

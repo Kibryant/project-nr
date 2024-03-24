@@ -9,13 +9,7 @@ const Footer = () => {
     <footer className="w-full p-1 mt-20 flex justify-center bg-[#012E71] h-screen sm:h-[50vh]">
       <div className="w-full max-w-7xl grid grid-cols-2 relative place-items-start place-content-between">
         <div className="flex flex-col gap-y-8">
-          <Image
-            src="/images/logos/main-logo.png"
-            alt="NR Representações"
-            width={100}
-            height={89}
-            quality={100}
-          />
+          <Image src="/images/logos/main-logo.png" alt="NR Representações" width={100} height={89} quality={100} />
           <div className="flex flex-col gap-y-4 ms-5">
             <h4 className="font-extrabold text-white text-lg">Volte para</h4>
             <ul>
@@ -44,9 +38,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="max-w-fit flex gap-x-1 justify-center items-center">
                 <EnvelopeClosedIcon className="text-zinc-300 w-4 h-4" />
-                <span className="text-zinc-300">
-                  nrepresentacoes2019@outlook.com
-                </span>
+                <span className="text-zinc-300">nrepresentacoes2019@outlook.com</span>
               </li>
               <li className="group">
                 <a
@@ -59,8 +51,8 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="absolute bottom-0 left-5">
-            <span className="text-zinc-400">
+          <div className="absolute -bottom-1 left-5">
+            <span className="text-zinc-400 text-[8px]">
               &copy;NR Representações 2023 | <br />
               Todos os Direitos Reservados.
             </span>
@@ -125,13 +117,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="ms-5 absolute bottom-0 right-0">
-            <Image
-              src="/images/logos/main-logo.png"
-              alt="NR Representações"
-              width={40}
-              height={40}
-              quality={100}
-            />
+            <Image src="/images/logos/main-logo.png" alt="NR Representações" width={40} height={40} quality={100} />
           </div>
         </div>
       </div>

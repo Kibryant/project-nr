@@ -14,13 +14,7 @@ const BrandBubbles = ({ className, image }: BrandBubblesProps) => {
         className,
       )}
     >
-      <Image
-        src={image}
-        alt="Logo do nosso cliente"
-        width={60}
-        height={60}
-        quality={100}
-      />
+      <Image src={image} alt="Logo do nosso cliente" width={60} height={60} quality={100} />
     </div>
   )
 }
