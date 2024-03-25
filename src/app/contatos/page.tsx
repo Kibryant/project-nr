@@ -3,8 +3,9 @@ import { MapComponent } from '@/components/Map'
 import { Section } from '@/components/Section'
 import { SocialCard } from '@/components/SocialCard'
 import { Title } from '@/components/Title'
+import { Badge } from '@/components/ui/badge'
 import { InstagramLogoIcon } from '@radix-ui/react-icons'
-import { LinkedinIcon, Facebook } from 'lucide-react'
+import { LinkedinIcon, Facebook, PhoneCallIcon } from 'lucide-react'
 import Image from 'next/image'
 
 const Page = () => {
@@ -12,13 +13,19 @@ const Page = () => {
     <>
       <Header.Root showChevronDown hrefToChevronDown="encontre-nos-aqui">
         <Header.Content>
-          <Header.Title title="Entre em contato com a" titleGreenPart="NR Representações" />
-          <Header.Subtitle
-            subtitle="Conecte-se para Parcerias de Sucesso:"
-            subtitleGreenPart="Entre em Contato com a NR Representações"
-          />
+          <Header.Description>
+            <Badge variant="outline">
+              <span className="text-[8px]">Entre em contato com a NR Representações</span>
+              <PhoneCallIcon className="ml-2 text-primary" size={12} />
+            </Badge>
+            <Header.Title title="Entre em contato com a" titleGreenPart="NR Representações" />
+            <Header.Subtitle
+              subtitle="Conecte-se para Parcerias de Sucesso:"
+              subtitleGreenPart="Entre em Contato com a NR Representações"
+            />
+          </Header.Description>
+          <Header.Image eventPicture="event-3.jpg" />
         </Header.Content>
-        <Header.Image eventPicture="event-3.jpg" />
       </Header.Root>
 
       <main>

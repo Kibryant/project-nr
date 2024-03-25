@@ -3,7 +3,7 @@ import { HeaderSwiper } from '../HeaderSwiper'
 import { ChevronDown } from 'lucide-react'
 
 interface RootProps {
-  children?: React.ReactNode
+  children?: React.ReactElement
   showSwiper?: boolean
   showChevronDown?: boolean
   hrefToChevronDown?: string
@@ -16,7 +16,7 @@ const Root = ({ children, showChevronDown, showSwiper, hrefToChevronDown }: Root
       id="inicio"
     >
       <div className="max-w-6xl px-2 flex justify-between items-center sm:gap-x-4">{children}</div>
-      <Image src="/svgs/line.svg" alt="NR Representações" fill className="hidden sm:block" />
+      <Image src="/svgs/line.svg" alt="NR Representações" fill className="-z-50 hidden sm:block" />
       {showSwiper && <HeaderSwiper />}
       {showChevronDown && (
         <a href={`#${hrefToChevronDown}`} className="hidden sm:block sm:absolute sm:bottom-10">

@@ -26,7 +26,7 @@ const MyDialog = () => {
               href="https://wa.me/5573999625449"
               className="dark:text-zinc-300 text-black underline flex gap-x-1 items-center group-hover:text-primary"
             >
-              <PhoneIcon className="text-black w-4 h-4 group-hover:text-primary" />
+              <PhoneIcon className="text-black w-4 h-4 group-hover:text-primary dark:text-zinc-300" />
               (73) 99962-5449
             </a>
           </DialogDescription>

@@ -3,11 +3,7 @@ interface ContentProps {
 }
 
 const Content: React.FC<ContentProps> = ({ children }) => {
-  return (
-    <div className="flex flex-col justify-center items-center sm:justify-start sm:items-start sm:gap-y-4 gap-y-6">
-      {children}
-    </div>
-  )
+  return <div className="flex flex-col justify-center items-center gap-y-6 sm:flex-row sm:gap-x-4">{children}</div>
 }
 
 export { Content }

@@ -2,19 +2,27 @@ import { BrandBubbles } from '@/components/BrandBubbles'
 import { Header } from '@/components/Header'
 import { Section } from '@/components/Section'
 import { Title } from '@/components/Title'
+import { Badge } from '@/components/ui/badge'
+import { Users2Icon } from 'lucide-react'
 
 const Page = () => {
   return (
     <>
       <Header.Root showChevronDown hrefToChevronDown="nossos-clientes">
         <Header.Content>
-          <Header.Title title="Clientes" titleGreenPart="de Sucesso" />
-          <Header.Subtitle
-            subtitle="Conheça e Celebre os Clientes que Confiam em Nossas Escolhas -"
-            subtitleGreenPart="Uma Jornada de Qualidade nas Suas Mãos"
-          />
+          <Header.Description>
+            <Badge variant="outline">
+              <span className="text-[8px]">Qualidade garantida!</span>
+              <Users2Icon className="ml-2 text-primary" size={12} />
+            </Badge>
+            <Header.Title title="Clientes" titleGreenPart="de Sucesso" />
+            <Header.Subtitle
+              subtitle="Conheça e Celebre os Clientes que Confiam em Nossas Escolhas -"
+              subtitleGreenPart="Uma Jornada de Qualidade nas Suas Mãos"
+            />
+          </Header.Description>
+          <Header.Image eventPicture="event-2.jpg" />
         </Header.Content>
-        <Header.Image eventPicture="event-2.jpg" />
       </Header.Root>
 
       <main>

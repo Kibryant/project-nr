@@ -13,17 +13,19 @@ const Page = () => {
     <>
       <Header.Root showSwiper showChevronDown hrefToChevronDown="quem-somos-nos">
         <Header.Content>
-          <Badge variant="outline">
-            <span>Paixão e Qualidade que Combinam.</span>
-            <Heart className="ml-2 text-primary" size={16} />
-          </Badge>
-          <Header.Title title="" titleGreenPart="NR Representações" />
-          <Header.Subtitle
-            subtitle="Nossa história é de paixão por qualidade e dedicação ao cliente."
-            subtitleGreenPart="Desde de 2018, fornecemos os melhores produtos para todo o Nordeste!"
-          />
+          <Header.Description>
+            <Badge variant="outline">
+              <span className="text-[8px]">Paixão e Qualidade que Combinam.</span>
+              <Heart className="ml-2 text-primary" size={12} />
+            </Badge>
+            <Header.Title title="" titleGreenPart="NR Representações" />
+            <Header.Subtitle
+              subtitle="Nossa história é de paixão por qualidade e dedicação ao cliente."
+              subtitleGreenPart="Desde de 2018, fornecemos os melhores produtos para todo o Nordeste!"
+            />
+          </Header.Description>
+          <Header.Image eventPicture="event-5.png" />
         </Header.Content>
-        <Header.Image eventPicture="event-5.png" />
       </Header.Root>
 
       <main className="space-y-14 sm:space-y-80 sm:mt-16">
